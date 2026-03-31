@@ -55,7 +55,7 @@ const TrustedBy = () => {
                             variants={itemVariants}
                             className="px-6 py-3"
                         >
-                            <span className="font-headline text-xl font-semibold text-primary/60 hover:text-primary transition-colors duration-300">
+                            <span className="font-headline text-xl font-semibold text-[#0F4C81]/60 hover:text-[#0F4C81] transition-colors duration-300">
                                 {company}
                             </span>
                         </motion.div>

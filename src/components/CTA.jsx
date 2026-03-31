@@ -18,7 +18,7 @@ const CTA = () => {
                         animate={inView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2 className="font-headline text-4xl font-bold mb-6 text-primary">Stay Informed on the <br /> <span className="italic font-normal text-secondary">Future of Leadership.</span></h2>
+                        <h2 className="font-headline text-4xl font-bold mb-6 text-[#0F4C81]">Stay Informed on the <br /> <span className="italic font-normal text-secondary">Future of Leadership.</span></h2>
                         <p className="font-body text-on-surface-variant mb-10 leading-relaxed">
                             Receive our monthly "Architectural Insights" — a curated digest of corporate strategy, leadership mastery, and organizational design for the modern executive.
                         </p>
@@ -36,15 +36,15 @@ const CTA = () => {
                         className="bg-primary-container/50 rounded-xl p-12 relative overflow-hidden border border-primary/5"
                     >
                         <div className="relative z-10">
-                            <span className="font-label text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-4 block">New Resource</span>
+                            <span className="font-label text-[10px] tracking-[0.3em] uppercase text-[#0F4C81] font-bold mb-4 block">New Resource</span>
                             <h3 className="font-headline text-2xl font-bold mb-6 text-on-primary-container">The 2024 Corporate Architecture Whitepaper</h3>
                             <p className="font-body text-sm text-on-surface-variant mb-8">An in-depth analysis of high-growth scaling friction and how to architect resilience in a volatile market.</p>
-                            <a className="inline-flex items-center gap-2 font-label text-xs font-bold uppercase tracking-widest group text-primary" href="#">
+                            <a className="inline-flex items-center gap-2 font-label text-xs font-bold uppercase tracking-widest group text-[#0F4C81]" href="#">
                                 Download Case Study
                                 <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
                             </a>
                         </div>
-                        <div className="absolute -right-10 -bottom-10 opacity-5 text-primary">
+                        <div className="absolute -right-10 -bottom-10 opacity-5 text-[#0F4C81]">
                             <span className="material-symbols-outlined text-[200px]">description</span>
                         </div>
                     </motion.div>

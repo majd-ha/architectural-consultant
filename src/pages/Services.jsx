@@ -62,7 +62,7 @@ const Services = () => {
                     <p className="font-label text-xs uppercase tracking-[0.2em] text-secondary mb-6 font-bold">
                         Expertise &amp; Guidance
                     </p>
-                    <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight text-primary leading-[1.1] text-[#0F4C81]">
+                    <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight text-[#0F4C81] leading-[1.1] ">
                         Strategic Coaching for Every Stage of Growth
                     </h1>
                     <div className="w-12 h-1 bg-secondary mt-12"></div>
@@ -160,7 +160,7 @@ const ServiceCard = ({ service, index }) => {
                     ))}
                 </ul>
                 <a
-                    className="inline-block font-bold border-b-2 border-primary text-primary pb-1 hover:bg-primary/5 transition-colors cursor-pointer"
+                    className="inline-block font-bold border-b-2 border-primary text-[#0F4C81] pb-1 hover:bg-primary/5 transition-colors cursor-pointer"
                     href="#"
                 >
                     Learn More
@@ -174,7 +174,7 @@ const ServiceCard = ({ service, index }) => {
                 className={`col-span-12 ${imageColClass} ${imageOrderClass} editorial-float overflow-hidden rounded-md shadow-xl border border-slate-100`}
             >
                 <img
-                    className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-600"
+                    className="w-full h-125 object-cover hover:scale-105 transition-transform duration-600"
                     alt={service.title}
                     src={service.image}
                 />
@@ -275,7 +275,7 @@ const FAQSection = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="md:w-1/3"
                     >
-                        <h2 className="font-headline text-3xl font-bold mb-4 text-primary">
+                        <h2 className="font-headline text-3xl font-bold mb-4 text-[#0F4C81]">
                             Common Questions
                         </h2>
                         <p className="text-on-surface-variant font-medium">
@@ -294,7 +294,7 @@ const FAQSection = () => {
                                 variants={itemVariants}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                             >
-                                <h3 className="font-headline text-xl font-bold mb-3 text-primary">
+                                <h3 className="font-headline text-xl font-bold mb-3 text-[#0F4C81]">
                                     {faq.question}
                                 </h3>
                                 <p className="text-on-surface-variant leading-relaxed">

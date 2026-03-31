@@ -18,8 +18,8 @@ const Hero = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="col-span-12 lg:col-span-7 z-10"
                 >
-                    <div className="w-12 h-[2px] bg-tertiary-fixed-dim mb-8"></div>
-                    <h1 className="font-headline text-6xl md:text-8xl font-bold tracking-tighter leading-[1.1] mb-8 text-primary">
+                    <div className="w-12 h-0.5 bg-tertiary-fixed-dim mb-8"></div>
+                    <h1 className="font-headline text-6xl md:text-8xl font-bold tracking-tighter leading-[1.1] mb-8 text-[#0F4C81]">
                         Empowering Visionary <br /> Leaders to Scale <br /> <span className="italic font-normal text-secondary">Sustainably.</span>
                     </h1>
                     <p className="font-body text-lg text-on-surface-variant max-w-xl mb-12 leading-relaxed">
@@ -40,7 +40,7 @@ const Hero = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="col-span-12 lg:col-span-5 relative mt-12 lg:mt-0"
                 >
-                    <div className="aspect-[4/5] overflow-hidden rounded-xl shadow-2xl relative z-0">
+                    <div className="aspect-4/5 overflow-hidden rounded-xl shadow-2xl relative z-0">
                         <img alt="Professional consultant in architectural setting" className="w-full h-full object-cover transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDixFGWvRkzEp_OvDiGfb09tvRvskC0CKuT0ehBfEOqIiTaPJzXRn3ap4t4jDF8HY_okThaLa-SVDUPS08-rN5mu51o1C5ktdflfvrmZmVjfzT1SSc1oQMxTdeiwixYhMGTW7LXxodRw8fdTq7XNmBcD7B4F-8fSBGF1_mHszdHqNUPlp6FvMuoMH8kLlD3FxlZzfSgGRmykbhwBvnnmSmRcCfCv_w7dS_5cQ9GRb8kkpEPxu1OtO2r3uhXnEdWEQooZKv2UET_5n4" />
                         <div className="absolute inset-0 bg-primary/5"></div>
                     </div>

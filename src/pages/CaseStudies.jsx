@@ -41,7 +41,7 @@ const CaseStudies = () => {
                 <span className="font-label uppercase tracking-[0.2em] text-[#0F4C81] mb-4 block text-sm">
                     Our Portfolio
                 </span>
-                <h1 className="text-6xl md:text-8xl font-headline font-bold tracking-tighter text-on-background leading-none max-w-4xl">
+                <h1 className="text-6xl md:text-8xl font-headline font-bold tracking-tighter text-[#0F4C81] leading-none max-w-4xl">
                     Measured impact. Architected growth.
                 </h1>
             </motion.header>

@@ -50,7 +50,7 @@ const Philosophy = () => {
                     transition={{ duration: 0.5 }}
                     className="mb-20"
                 >
-                    <h2 className="font-headline text-4xl font-bold tracking-tight mb-4 text-primary">The Philosophy</h2>
+                    <h2 className="font-headline text-4xl font-bold tracking-tight mb-4 text-[#0F4C81]">The Philosophy</h2>
                     <p className="font-body text-on-surface-variant max-w-2xl">We don't just coach; we architect. Our methodology is built on three unbreakable pillars of corporate structural integrity.</p>
                 </motion.div>
                 <motion.div
@@ -67,7 +67,7 @@ const Philosophy = () => {
                             whileHover={{ y: -8, transition: { duration: 0.3 } }}
                             className="p-8 bg-gray-100 rounded-xl border border-transparent hover:border-primary/10 transition-all duration-500 editorial-float shadow-xl"
                         >
-                            <span className="material-symbols-outlined text-4xl text-primary mb-8">{item.icon}</span>
+                            <span className="material-symbols-outlined text-4xl text-[#0F4C81] mb-8">{item.icon}</span>
                             <h3 className="font-headline text-2xl font-bold mb-4 float-content transition-all duration-300">{item.title}</h3>
                             <p className="font-body text-on-surface-variant leading-relaxed">{item.description}</p>
                         </motion.div>
